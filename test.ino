@@ -1,5 +1,6 @@
 #include <HCSR04.h>
-
+#include "motor.h"
+/*
 // Initialize sensor that uses digital pins 13 and 12.
 int triggerPin = 8;
 int echoPin = 10;
@@ -14,4 +15,14 @@ void loop () {
     double distance = distanceSensor.measureDistanceCm();
     Serial.println(distance);
     delay(500);
+}*/
+
+void setup()
+{
+
+}
+
+void loop()
+{
+
 }
