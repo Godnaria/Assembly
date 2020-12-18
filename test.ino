@@ -1,9 +1,17 @@
 #include <HCSR04.h>
 #include "motor.h"
+<<<<<<< HEAD
 
 UltraSonicDistanceSensor distanceSensor_middle(MIDDLE_TRIG, MIDDLE_ECHO);
 UltraSonicDistanceSensor distanceSensor_left(LEFT_TRIG, LEFT_ECHO);
 UltraSonicDistanceSensor distanceSensor_right(RIGHT_TRIG, RIGHT_ECHO);
+=======
+/*
+// Initialize sensor that uses digital pins 13 and 12.
+int triggerPin = 8;
+int echoPin = 10;
+UltraSonicDistanceSensor distanceSensor(triggerPin, echoPin);
+>>>>>>> 718573bdc124675f069a9c880fb69c65958b5c17
 
 void setup () 
 {
@@ -35,4 +43,14 @@ void loop ()
     }
     Serial.println(distance);
     delay(500);
+}*/
+
+void setup()
+{
+
+}
+
+void loop()
+{
+
 }
