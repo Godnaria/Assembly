@@ -1,5 +1,4 @@
 //this file contain the pin of motors' definition
-<<<<<<< HEAD
 #define MIDDLE_ECHO 2
 #define MIDDLE_TRIG 4
 #define LEFT_ECHO 7
@@ -20,6 +19,3 @@ void turn_right(Motor ax = MOTOR_A2,Motor bx = MOTOR_B2 , int speed)
 {
     digitalWrite(MOTOR_B2,speed);
 }
-=======
-
->>>>>>> 718573bdc124675f069a9c880fb69c65958b5c17
