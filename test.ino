@@ -36,13 +36,3 @@ void loop ()
     Serial.println(distance);
     delay(500);
 }
-
-void setup()
-{
-
-}
-
-void loop()
-{
-
-}
